@@ -14,7 +14,8 @@ const ALLOWED_ORIGINS = [
 	'https://www.debridmediamanager.com',
 ];
 
-const DEFAULT_ORIGIN = 'https://debridmediamanager.com';
+const DEFAULT_ORIGIN = 'https://debrid-media-manager-zeta.vercel.app';
+
 
 const ALLOWED_HOSTS = [
 	'app.real-debrid.com',
