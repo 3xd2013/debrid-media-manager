@@ -8,11 +8,13 @@ import type { NextApiHandler, NextApiRequest, NextApiResponse } from 'next';
 
 // Origins allowed to use this cross-origin proxy
 const ALLOWED_ORIGINS = [
-	'http://127.0.0.1:3000',
-	'http://localhost:3000',
-	'https://debridmediamanager.com',
-	'https://www.debridmediamanager.com',
+  'http://127.0.0.1:3000',
+  'http://localhost:3000',
+  'https://debridmediamanager.com',
+  'https://www.debridmediamanager.com',
+  'https://debrid-media-manager-zeta.vercel.app',
 ];
+
 
 const DEFAULT_ORIGIN = 'https://debrid-media-manager-zeta.vercel.app';
 
